@@ -5,11 +5,13 @@ If GCD of any two certificate's N yields something different than 1, then it's o
 
 Store all your collected PEM certificates (with public key) on a directory named 'certs', then run modulus_hacker.py on the same level as certs:
 
-modulus_hacker.py
-certs
-  |
-  --- cert1.pem
-  --- cert2.pem
-  --- cert3.pem
-  ...
-  --- certn.pem
+```
+this_repo
+│   README.md
+│   modulus_hacker.py    
+└───certs
+│   │   cert1.pem
+│   │   cert2.pem
+│   │   ...
+│   │   certn.pem
+```
